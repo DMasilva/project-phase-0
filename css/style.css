@@ -206,7 +206,15 @@ input{
       background-color: #0a0a23;
     border: 1px solid #0a0a23;
     color: #ffffff;
-    }
+}
+.logo-pictures{
+   display: inline;
+   display: flex;
+   width: 25px;
+   margin: auto;
+   justify-content: space-between;
+   align-items: center;
+}
 
    
 

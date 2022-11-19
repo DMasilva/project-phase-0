@@ -173,7 +173,13 @@ img{
       background-image: url(../images/Masilva.jpg);
       background-size: cover;
       background-position: center; */
-      background : red;
+      background :
+}
+label{
+   display: block;
+}
+fieldset{
+   background-color: red;
 }
 
 

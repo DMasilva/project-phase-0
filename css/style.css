@@ -36,6 +36,7 @@ nav ul li{
    display: inline;
    list-style-type: none;
    padding: 10px 20px;
+   font-size: 20px;
 
 
 }
@@ -53,7 +54,8 @@ button{
    background:none ;
    padding:10px 10px ;
    border-radius:10%;
-   font-size: 20px;
+   font-size: 2
+   0px;
    font-weight: bold;
    border-style: solid;
    border-color: blue;
@@ -222,6 +224,17 @@ input{
 }
 .moringa ul li, .ambira ul li, .genesis ul li, .tuk ul li{
    list-style-type: none;
+}
+.solar ul li, .kuscco ul li, .iebc ul li, .volunteer ul li{
+   list-style-type: none;
+}
+.work{
+   height: 100vh;
+   width: 100%;
+   /* background-image: linear-gradient(rgba(0,0,0,5), rgba(0,0,0,5));
+   background-image: url(../images/Masilva.jpg); */
+   /* background-size: cover;
+   background-position: center; */
 }
    
 

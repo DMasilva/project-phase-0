@@ -50,5 +50,11 @@
 
 //lookup expression
 
+function myFunction() {
+    const - document.getElementById("dot");
+    const moreText - documentgetElementById("continue")
+
+}
+
 
 

@@ -10,10 +10,11 @@ html{
 .header{
    height: 100vh;
    width: 100%;
-   background-image: linear-gradient(rgba(0,0,0,5), rgba(0,0,0,5));
+   background-image: linear-gradient(rgba(50,50,50,5), rgba(50,50,50,5));
    background-image: url(../images/Masilva.jpg);
    background-size: cover;
    background-position: center;
+   background-color: rgba(50,50,50,5)
 }
 nav{
    display: flex;
@@ -92,6 +93,11 @@ button:hoover{
    background-color: rgba(50,50,50,5)
    
 }
+
+.form{
+   margin-top: 50px;
+   background-color: rgba(50,50,50,5)
+}
 .main_intro{
    font-size: 25px;
    font-weight: bold;
@@ -128,7 +134,7 @@ button:hoover{
 .moringa, .solar{
    background-color: red;
    width: 40%;
-   height: 40vh;
+   height: 30vh;
    float: left;
    margin-left:50px;
    margin-top: 20px;
@@ -137,7 +143,7 @@ button:hoover{
 .tuk, .kuscco{
    background-color: green;
    width: 40%;
-   height: 40vh;
+   height: 30vh;
    float: right;
    margin-right:50px;
    margin-top: 20px;
@@ -146,7 +152,7 @@ button:hoover{
 .ambira, .volunteer{
    background-color: orange;
    width: 40%;
-   height: 40vh;
+   height: 30vh;
    float: left;
    margin-top: 40px;
    margin-left: 50px;
@@ -155,7 +161,7 @@ button:hoover{
 .genesis, .iebc{
    background-color: indigo;
    width: 40%;
-   height: 40vh;
+   height: 30vh;
    float: right;
    margin-right:50px;
    margin-top: 40px;
@@ -166,21 +172,25 @@ button:hoover{
    float: right;
    width: 60%;
 }
+.explanation{
+   padding: 15px;
+}
 img{
   
-   height: 550px;
+   height: 420px;
+   margin-left: 15px;
 }
 .img-logo{
    height: 100px;
 }
 .footer{
-      height: 100vh;
+      height: 120vh;
       width: 100%;
       /* background-image: linear-gradient(rgba(0,0,0,5), rgba(0,0,0,5));
       background-image: url(../images/Masilva.jpg);
       background-size: cover;
       background-position: center; */
-      background :
+      background-color:rgba(50, 50, 50, 5)
 }
 label{
    display: block;
@@ -188,14 +198,15 @@ label{
    text-align: center;
 }
 fieldset{
-   background-color: red;
+   background-color: lightblue;
    border: none;
    padding: 2rem 0;
-   border-bottom: 3px solid #3b3b4f;
+   /* border-bottom: 3px solid #3b3b4f; */
 }
 .form-center{
    text-align: center;
-   padding: 5px;
+   
+   
 }
 
 form {
@@ -203,16 +214,19 @@ form {
    max-width: 500px;
    min-width: 300px;
    margin: 0 auto
+   
 }
+
+
 
 input{
    
-      margin: 10px 0 0 0;
-      width: 100%;
-      min-height: 2em;
-      background-color: #0a0a23;
-    border: 1px solid #0a0a23;
-    color: #ffffff;
+   margin: 10px 0 0 0;
+   width:80%;
+   min-height: 2em;
+   background-color: grey;
+   border: 1px solid blue;
+   color: #ffffff;
 }
 .logo-pictures{
    display: inline;
@@ -235,11 +249,14 @@ input{
    background-image: url(../images/Masilva.jpg); */
    /* background-size: cover;
    background-position: center; */
+   background-color: green;
 }
-   
+#continue{
+   display: none;
+}
 
 
-display:contents
+
 
 /* body {
    background-image: url(../images/Masilva.jpg);

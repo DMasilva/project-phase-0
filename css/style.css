@@ -133,7 +133,7 @@ button:hoover{
    height: 100vh;
    width: 100%;
    background-image: linear-gradient(rgba(0,0,0,5), rgba(0,0,0,5));
-   background-image: url(../images/graduation.png); 
+   background-image: url(../images/light.jpeg); 
    /* background-size: 50%; */
    background-position:center;
    /* background-color:blue; */
@@ -210,25 +210,25 @@ background-color: chocolate;
    text-align: none;
 }
 
-#homes, #blue, #educate{
+/* #homes, #blue, #educate{
    color: blue;
-}
+} */
 
 .white{
    color: white;
    font-size: 40px;
-   text-decoration: underline solid white;
+   /* text-decoration: underline solid white; */
 }
    
-#educate{
+/* #educate{
    text-decoration: underline solid blue;
-}
+} */
 
 .change{
-   color: blue;
+   color: white;
 }
 .change:hover{
-   color: rgba(0,0,0,5);
+   color: aqua;
    transition: .2s;
 }
 
@@ -367,6 +367,11 @@ input{
    text-align: none;
    margin left: 5px;
 }
+
+.solar ul li{
+   color: pink;
+}
+
 .work{
    height: 100vh;
    width: 100%;

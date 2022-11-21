@@ -1,6 +1,7 @@
 html{
    scroll-behavior: smooth;
 }
+
 *{
    padding: 0%;
    margin: 0%;
@@ -27,6 +28,7 @@ html{
    background-position: center;
    background-color: rgba(50,50,50,5)
 }
+
 nav{
    display: flex;
    align-items: center;
@@ -35,6 +37,7 @@ nav{
    padding-left:10px ;
    padding-right:10px ;
 }
+
 .logo{
    color: blue;
    font-size: 50px;
@@ -57,10 +60,12 @@ nav ul li a{
    text-decoration:none;
    font-weight: bold;
 }
+
 nav ul li a:hover{
    color: blue;
    transition: .2s;
 }
+
 .submit-button{
    border: none;
    background-color:rgba(50, 50, 50, 5);
@@ -76,10 +81,12 @@ nav ul li a:hover{
    padding-top: 10px;
    margin-top: 10px;
 }
+
 button:hoover{
    transform: scale(1.3);
    cursor:all-scroll;
 }
+
 .content{
    text-align: left;
    margin-left: 100px;
@@ -89,12 +96,14 @@ button:hoover{
    padding-top: 50px;
    color: white;
 }
+
 .intro{
    font-size: 18px;
    font-family: Arial, Helvetica, sans-serif;
    font-style: italic;
    font-weight: bold;
 }
+
 .about{
    height: 110vh;
    width: 100%;
@@ -110,6 +119,7 @@ button:hoover{
    margin-top: 50px;
    background-color: rgba(50,50,50,5)
 }
+
 .main_intro{
    font-size: 25px;
    font-weight: bold;
@@ -117,10 +127,12 @@ button:hoover{
    font-family: "Times New Roman";
    padding: 2px;
 }
+
 #main_intro{
    padding-top: 10px;
    padding-bottom: 10px;
 }
+
 .explain{
    font-size: 18px;
    font-family: "Calibri ";
@@ -129,21 +141,38 @@ button:hoover{
 .main_intro a{
    color: lightblue;
 }
+
 .education{
    height: 100vh;
    width: 100%;
-   background-image: linear-gradient(rgba(0,0,0,5), rgba(0,0,0,5));
-   background-image: url(../images/light.jpeg); 
+   /* background-image: linear-gradient(rgba(0,0,0,5), rgba(0,0,0,5));
+   background-image: url(../images/light.jpeg);  */
    /* background-size: 50%; */
    background-position:center;
    /* background-color:blue; */
 }
+
+.bg{
+   background-image: url(../images/light.jpeg);
+   background-position: center;
+   background-size: cover;
+}
+
+.bg1{
+   background-image: url(../images/background-wall.v1.png);
+   background-position: center;
+   background-size: 82%;
+
+
+}
+
 .right_side{
    /* background-color: red; */
    text-align: right;
    padding-top: 10px;
    margin-left: 50%;
 }
+
 .moringa, .solar{
    background-color: lightcoral;
    width: 40%;
@@ -153,6 +182,7 @@ button:hoover{
    margin-top: 20px;
    text-align: center;
 }
+
 .tuk, .kuscco{
    background-color: lightgreen;
    width: 40%;
@@ -185,6 +215,7 @@ background-color: chocolate;
    margin-left: 50px;
    text-align: center;
 }
+
 .genesis, .iebc{
    background-color: rgb(183, 147, 208);
    width: 40%;
@@ -194,12 +225,14 @@ background-color: chocolate;
    margin-top: 40px;
    text-align: center;
 }
+
 .about_right{
    text-align: center;
    float: right;
    width: 55%;
    margin-right: 25px;
 }
+
 .explanation{
    padding: 15px;
    color: aqua;
@@ -227,6 +260,7 @@ background-color: chocolate;
 .change{
    color: white;
 }
+
 .change:hover{
    color: aqua;
    transition: .2s;
@@ -237,6 +271,7 @@ img{
    height: 420px;
    margin-left: 15px;
 }
+
 .img-logo{
    height: 100px;
 }
@@ -290,6 +325,7 @@ label{
    color: white;
    font-size: 25px solid;
 }
+
 fieldset{
    background-color: rgba(50, 50, 50, 5);
    border: solid 4px;
@@ -297,6 +333,7 @@ fieldset{
    padding: 2rem 0;
    /* border-bottom: 3px solid #3b3b4f; */
 }
+
 .form-center{
    text-align: center;
    color: white;
@@ -351,6 +388,7 @@ input{
    border: 3px solid blue;
    color: black;
 }
+
 .logo-pictures{
    display: inline;
    display: flex;
@@ -359,9 +397,11 @@ input{
    justify-content: space-between;
    align-items: center;
 }
+
 .moringa ul li, .ambira ul li, .genesis ul li, .tuk ul li{
    list-style-type: none;
 }
+
 .solar ul li, .kuscco ul li, .iebc ul li, .volunteer ul li{
    list-style-type: none;
    text-align: none;
@@ -375,11 +415,11 @@ input{
 .work{
    height: 100vh;
    width: 100%;
-   background-image: linear-gradient(rgba(0,0,0,5), rgba(0,0,0,5));
+   /* background-image: linear-gradient(rgba(0,0,0,5), rgba(0,0,0,5));
    background-image: url(../images/background-wall.webp);
    background-size: cover;
-   background-position: center;
-   background-color:rgb(75, 77, 78); 
+   background-position: center; */
+   /* background-color:rgb(75, 77, 78);  */
 }
 
 /* #more{
